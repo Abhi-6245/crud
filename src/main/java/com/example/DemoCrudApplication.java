@@ -14,6 +14,9 @@ public class DemoCrudApplication {
         RegisterUser  userreg = ctx.getBean(RegisterUser.class);
         userreg.registerUser("mike");
         userreg.getUserDetails("mike");
+        int x =100;
+        int y =200;
+    
 
 
     }
